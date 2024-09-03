@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="RegressionTestSuite">
+	<listeners>
+		<listener class-name="com.saudia.qa.listeners.TestListener" />
+	</listeners>
+	<test name="RegressionTests">
+		<classes>
+			<class name="com.saudia.qa.FunctionalTestcase.PaymentsTest" />
+			<!--<class name="com.saudia.qa.FunctionalTestcase.BookingTest" />-->
+			<!--<class name="com.saudia.qa.FunctionalTestcase.EvisaTest" />-->
+		</classes>
+	</test>
+</suite>
